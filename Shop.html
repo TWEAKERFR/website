@@ -5,6 +5,7 @@
     <title>Page 2</title>
     <link rel="stylesheet" href="styles.css">
     <title>My first test webpage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Eater&display=swap" rel="stylesheet">
@@ -13,7 +14,7 @@
 <body id="shopbody">
     
     <div class="topnav">
-        <a href="Home.html">Home</a>
+        <a href="index.html">Home</a>
         <a href="Game.html">Game</a>
         <a href="Community.html">Community</a>
         <a href="Shop.html">Shop</a>
@@ -29,11 +30,18 @@
             
             <p><b>Merch List</b></p>
             <ul id="merchlist">
-                <img src="images/DeadGameMerch.png" alt="images" width="100px" height="100px">
-                <li>DeadGameMerch</li>
-                <img src="images/shirtrock.webp" alt="images" width="100px" height="100px">
-                <li>T-shirt 2</li>
-                <li>T-shirt 3</li>
+                <li class="product">
+                    <img src="images/DeadGameMerch.png" alt="DeadGame merchandise">
+                    <h2>DeadGame Merch</h2>
+                </li>
+                <li class="product">
+                    <img src="images/shirtrock.webp" alt="PAYDAY themed T-shirt">
+                    <h2>T-shirt</h2>
+                </li>
+                <li class="product">
+                    <img src="images/bobblehead.jpg" alt="PAYDAY bobblehead">
+                    <h2>Bobblehead</h2>
+                </li>
             </ul>
         </div>
     </main>
