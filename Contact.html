@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Index</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Index</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eater&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="topnav">
+        <a href="Home.html">Home</a>
+        <a href="Game.html">Game</a>
+        <a href="Community.html">Community</a>
+        <a href="Shop.html">Shop</a>
+        <a href="Contact.html">Contact</a>
+    </div>
+
+    <main>
+        <h1 class="pagetitle">Contact</h1>
+        <p>This is where you can contact me</p>
+
+        <form>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required>
+
+            <label for="username">Username</label>
+            <input id="username" name="username" type="text">
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject" required>
+                <option value="">Choose a subject…</option>
+                <option value="Gameplay">Ask About Gameplay</option>
+                <option value="Report">Report A Player</option>
+                <option value="Bug">Report A Bug</option>
+                <option value="FanMessage">Fan Message</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message"
+                        rows="4" required></textarea>
+
+            <button type="submit">Send message</button>
+        </form>
+    </main>
+
+</body>
+
+</html>
