@@ -2,9 +2,8 @@
 <html>
 
 <head>
-    <title>Page 2</title>
+    <title>Shop</title>
     <link rel="stylesheet" href="styles.css">
-    <title>My first test webpage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +16,7 @@
         <a href="index.html">Home</a>
         <a href="Game.html">Game</a>
         <a href="Community.html">Community</a>
-        <a href="Shop.html">Shop</a>
+        <a href="Shop.html" aria-current="page">Shop</a>
         <a href="Contact.html">Contact</a>
     </div>
 
@@ -26,15 +25,34 @@
         <div id="merch">
             <h1>Shop</h1>
 
-            <p>This is where you can purchase merch, and items to support us</p>
+            <p>Browse PAYDAY 2 merchandise and artwork. Select an image to open it at full size.</p>
             
-            <p><b>Merch List</b></p>
+            <h2>Merchandise</h2>
             <ul id="merchlist">
                 <li class="product">
-    <img src="images/HappyBrithday.jpg" alt="PAYDAY 2 13th birthday artwork">
-    <h2>PAYDAY 2 Birthday Artwork</h2>
-    <p>Anniversary artwork celebrating the game and its crew.</p>
-</li>
+                    <a class="product-image" href="images/shirtrock.webp">
+                        <img src="images/shirtrock.webp" alt="PAYDAY 2 shirt design">
+                    </a>
+                    <h3>PAYDAY 2 Shirt</h3>
+                    <p>A shirt design for fans of the PAYDAY crew.</p>
+                    <a class="image-link" href="images/shirtrock.webp">View image</a>
+                </li>
+                <li class="product">
+                    <a class="product-image" href="images/DeadGameMerch.png">
+                        <img src="images/DeadGameMerch.png" alt="PAYDAY 2 merchandise design">
+                    </a>
+                    <h3>PAYDAY 2 Merch Design</h3>
+                    <p>Merchandise artwork inspired by the game.</p>
+                    <a class="image-link" href="images/DeadGameMerch.png">View image</a>
+                </li>
+                <li class="product">
+                    <a class="product-image" href="images/bobblehead.jpg">
+                        <img src="images/bobblehead.jpg" alt="PAYDAY 2 bobblehead">
+                    </a>
+                    <h3>PAYDAY 2 Bobblehead</h3>
+                    <p>A collectible bobblehead for your crew.</p>
+                    <a class="image-link" href="images/bobblehead.jpg">View image</a>
+                </li>
             </ul>
         </div>
     </main>
